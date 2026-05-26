@@ -1,0 +1,51 @@
+{
+  "name": "sanchayam-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "migrate": "tsx src/db/migrate.ts",
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagarnayak/sanchayamBackend-public.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sagarnayak/sanchayamBackend-public/issues"
+  },
+  "homepage": "https://github.com/sagarnayak/sanchayamBackend-public#readme",
+  "dependencies": {
+    "@fastify/cookie": "^11.0.2",
+    "@fastify/cors": "^11.2.0",
+    "@fastify/rate-limit": "^10.3.0",
+    "bcrypt": "^6.0.0",
+    "big.js": "^7.0.1",
+    "dotenv": "^17.4.2",
+    "fastify": "^5.8.5",
+    "jsonwebtoken": "^9.0.3",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^8.0.7",
+    "pino": "^10.3.1",
+    "postgres": "^3.4.9",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/big.js": "^6.2.2",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^25.8.0",
+    "@types/node-cron": "^3.0.11",
+    "@types/nodemailer": "^8.0.0",
+    "tsx": "^4.22.0",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.7"
+  }
+}
