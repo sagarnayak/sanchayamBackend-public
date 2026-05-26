@@ -4,6 +4,8 @@ Self-hosted multi-asset portfolio tracker. Tracks equity, mutual funds, real est
 
 **Frontend repo:** [github.com/sagarnayak/sanchayamFrontend-public](https://github.com/sagarnayak/sanchayamFrontend-public)
 
+**Blog series:** [How Sanchayam was built](https://blog.hardcodeconsulting.tech/post/sanchayam-intro/) - 10 posts covering the asset schema, auth, FX service, price feed, FIFO P&L, XIRR, snapshots, corporate actions, and deployment.
+
 ---
 
 ## Stack
